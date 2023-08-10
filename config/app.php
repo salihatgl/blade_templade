@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
+use Laravel\Prompts\Key;
 
 return [
 
@@ -184,5 +185,10 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
+
+    'ayar' => [
+        'deger'=> env('TEST_AYAR_1')
+    ], 
+
 
 ];

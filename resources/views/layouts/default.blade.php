@@ -10,8 +10,8 @@
         <div id="main">
             @yield('content')       <!--içerik eklemmek için@sections ile kullanılır -->
         </div>
-        <div id="footer">
-            @include('includes.footer') <!--footerkısmının bulunduğu dosyayı dahil eder -->
+         <div id="footer">
+            @include('includes.footer') footerkısmının bulunduğu dosyayı dahil eder 
         </div>
     
     </body>
