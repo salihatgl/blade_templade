@@ -1,8 +1,9 @@
  @extends('layouts.default') <!--view dosyasını genişletir -->
 @section('content')          <!-- yield ile içerik eklemek için kullanılır. -->
 
-<h4>Laravel custom konfigürasyon</h4>
-{{$value = config('app.ayar.deger');}}
+<!-- <h4>Laravel custom konfigürasyon</h4> -->
+<!-- {{$value = config('app.ayar.deger');}} -->
+
 <div class="container">
         <h6 class="ms-5 mt-5 me-5">Liz Flamhaff Designs</h6>
         <hr style="color: #735e59; height:2px;">
