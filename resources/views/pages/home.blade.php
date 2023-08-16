@@ -3,6 +3,12 @@
 
 <!-- <h4>Laravel custom konfigürasyon</h4> -->
 <!-- {{$value = config('app.ayar.deger');}} -->
+<script>
+cookie("test", "tank", 1)
+
+cookie('test', '123', { 'expires': 30, 'path': '/', 'domain':'' });
+</script>
+<script src="/js/app.js"></script>
 
 <div class="container">
         <h6 class="ms-5 mt-5 me-5">Liz Flamhaff Designs</h6>
